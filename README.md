@@ -25,13 +25,6 @@ This is a continuation of the [osTicket - Prerequisites and Installation Lab](ht
 2. Configure Roles, Departments, Teams, and Users
 3. Configure Service Level Agreement (SLA) levels and Help Topics
 
-- Configure Roles
-- Configure Departments
-- Configure Teams
-- Allow Anyone to Create Tickets
-- Configure Users (customers)
-- Configure SLA
-- Configure Help Topics
 
 <h2>osTicket UI</h2><br />
 <p>
@@ -76,13 +69,43 @@ We will create a new Role named 'Supreme Admin'. Once you have entered the name,
 <p>
 <img src="https://imgur.com/MpxDdQI.png" height="70%" width="70%" alt="osTicket"/>
 </p>
-
+<p>
+Once all boxes have been checked, click 'Add Role'.
+</p>
 
 
 
 <h2>Configure Deparments</h2>
+<p>
+To configure Departments, head to the Admin Panel then select Agents -> Departments, and click on 'Add New Department'.
+</p>
+<p>
+<img src="https://imgur.com/FIknaQW.png" height="70%" width="70%" alt="osTicket"/>
+</p>
+<p>
+We will create a new department named 'System Administrators'. Once you have typed the name, click 'Create Dept'.
+</p>
+<p>
+<img src="https://imgur.com/ftyyfpP.png" height="70%" width="70%" alt="osTicket"/>
+</p>
+
+
+
 
 <h2>Configure Teams</h2>
+<p>
+To configure Teams, head back to the Admin panel then go to Agents -> Teams, and click on 'Add New Team'. Create a new team called 'Level II Support', and add your current user account to the Team.
+</p>
+<p>
+<img src="https://imgur.com/bWC5aor.png" height="70%" width="70%" alt="osTicket"/>
+</p>
+<p>
+<img src="https://imgur.com/xGbRUFS.png" height="70%" width="70%" alt="osTicket"/>
+</p>
+<p>
+Once done, click on 'Create Team'.
+</p>
+
 
 <h2>Configure Users</h2>
 
