@@ -220,11 +220,23 @@ Below is an example of the creation of SLA Plan 'SEV-A'.
 <p>
 Help Topics will determine what Department the ticket is routed to which will determine which Agents have access to the ticket. The Help Topic also can determine other configurations of the ticket, such as the ticket’s SLA (or Service Level Agreement) and priority of a ticket, i.e. Emergency to Low.
 
-To configure Help Topics navigate to the Admin Panel then to Manage -> Help Topics and select 'Add New Help Topic'.
+osTicket creates four Help Topics. Feedback, General Inquiry, Report a Problem, and Report a Problem/Access Issue by default.
+
+To configure new Help Topics navigate to the Admin Panel then to Manage -> Help Topics and select 'Add New Help Topic'.
 </p>
 <p>
 <img src="https://imgur.com/gjgq1od.png" height="70%" width="70%" alt="osTicket"/>
 </p>
 <p>
-<img src="https://imgur.com/drQqlQw.png" height="70%" width="70%" alt="osTicket"/>
+Create four different Help Topics based on the potential severity a ticket could have. Here are some examples:
+  
+1.) Business Critical Outage
+2.) Personal Computer Issues
+3.) Equipment Reset
+4.) Password Reset
+
+Click on 'Add Topic', to create a new Help Topic.
+</p>
+<p>
+<img src="https://imgur.com/aqD2s17.png" height="70%" width="70%" alt="osTicket"/>
 </p>
