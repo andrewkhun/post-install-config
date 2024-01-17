@@ -3,7 +3,9 @@
 </p>
 
 <h1>osTicket - Post-Install Configuration</h1>
-This tutorial outlines the post-install configuration of the open-source help desk ticketing system osTicket.<br />
+This tutorial outlines the post-install configuration of the open-source help desk ticketing system osTicket.<br /><br />
+
+This is a continuation of the [osTicket - Prerequisites and Installation Lab](https://github.com/andrewkhun/osticket-prereqs)<br />
 
 
 <h2>Environments and Technologies Used</h2>
@@ -18,11 +20,13 @@ This tutorial outlines the post-install configuration of the open-source help de
 
 <h2>Post-Install Configuration Objectives</h2>
 
-- Item 1
-- Item 2
-- Item 3
-- Item 4
-- Item 5
+- Configure Roles
+- Configure Departments
+- Configure Teams
+- Allow Anyone to Create Tickets
+- Configure Users (customers)
+- Configure SLA
+- Configure Help Topics
 
 <h2>Configuration Steps</h2>
 
