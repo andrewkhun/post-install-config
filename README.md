@@ -23,7 +23,7 @@ This is a continuation of the [osTicket - Prerequisites and Installation Lab](ht
 
 1. Familiarity with the osTicket UI
 2. Configure Roles, Departments, Teams, and Users
-3. Configure Service Level Agreement (SLA) levels and Help Topics
+3. Configure Service Level Agreement (SLA) Plans and Help Topics
 
 
 <h2>osTicket UI</h2>
@@ -192,6 +192,39 @@ Access the Admin Panel, go to the Settings tab, and click on Users, make sure Re
 <img src="https://imgur.com/oJnMe9z.png" height="70%" width="70%" alt="osTicket"/>
 </p>
 
-<h2>Configure SLA Levels</h2>
+<h2>Configure SLA Plans</h2>
+<p>
+The purpose of the SLA Plan is to provide a length of time in which the help desk Administrator expects tickets to be closed. To create new SLA plans, navigate to the Admin Panel then go to Manage -> SLA, and click on 'Add New SLA Plan'.
+</p>
+<p>
+<img src="https://imgur.com/4vdq2E4.png" height="70%" width="70%" alt="osTicket"/>
+</p>
+<p>
+We will create three separate SLA plans with different specifications for low-, medium-, and high-severity tickets. Create each SLA Plan with the following specifications:
+
+1.) SEV-A with 1 hour Grace Period, 24/7 schedule
+
+2.) SEV-B with 4 hour Grace Period, 24/7 schedule
+
+3.) SEV-C with 8 hour Grace Period, Business Hours schedule
+
+Below is an example of the creation of SLA Plan 'SEV-A'. 
+</p>
+<p>
+<img src="https://imgur.com/drQqlQw.png" height="70%" width="70%" alt="osTicket"/>
+</p>
+
+
 
 <h2>Configure Help Topics</h2>
+<p>
+Help Topics will determine what Department the ticket is routed to which will determine which Agents have access to the ticket. The Help Topic also can determine other configurations of the ticket, such as the ticket’s SLA (or Service Level Agreement) and priority of a ticket, i.e. Emergency to Low.
+
+To configure Help Topics navigate to the Admin Panel then to Manage -> Help Topics and select 'Add New Help Topic'.
+</p>
+<p>
+<img src="https://imgur.com/gjgq1od.png" height="70%" width="70%" alt="osTicket"/>
+</p>
+<p>
+<img src="https://imgur.com/drQqlQw.png" height="70%" width="70%" alt="osTicket"/>
+</p>
