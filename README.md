@@ -107,6 +107,9 @@ Once done, click on 'Create Team'.
 </p>
 
 
+
+
+
 <h2>Configure Agents</h2>
 <p>
 To configure Agents or the ones who will be resolving the tickets, go to the Admin panel go to Agents -> Add New, and click on 'Add New Agent'.
@@ -157,7 +160,27 @@ Next, in 'Teams' add the 'Level I Support' team, then click Save changes.
 Please note, when configuring a true work/production environment osTicket instance, ensure that you apply the concept of 'Least Privilege' to only provide the least amount of access a user needs to complete their duties. However, for the sake of this lab, we will allow john smith to have a 'Supreme Admin' role.
 </p>
 
+
+
+
 <h2>Configure Users</h2>
+<p>
+To configure Users who will submit tickets into the osTicket system, navigate to the Agent panel then click on Users -> Add New. Here we will create two new Users.
+</p>
+<p>
+<img src="https://imgur.com/d75tPfh.png" height="70%" width="70%" alt="osTicket"/>
+</p>
+<p>
+Our two new users will be 'karen karen' with the email 'karen<span>@</span>osticket.com' and 'ken ken' with the email 'ken<span>@</span>osticket.com'. Once you have entered the proper information for each user, click on 'Add User'.
+</p>
+<p>
+<img src="https://imgur.com/OV9Lf0p.png" height="70%" width="70%" alt="osTicket"/>
+</p>
+<p>
+<img src="https://imgur.com/uppLFPo.png" height="70%" width="70%" alt="osTicket"/>
+</p>
+
+
 
 <h2>Allow Anyone to Create Tickets</h2>
 
