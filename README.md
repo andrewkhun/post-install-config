@@ -230,10 +230,10 @@ To configure new Help Topics navigate to the Admin Panel then to Manage -> Help 
 <p>
 Create four different Help Topics based on the potential severity a ticket could have. Here are some examples:
   
-1.) Business Critical Outage
-2.) Personal Computer Issues
-3.) Equipment Reset
-4.) Password Reset
+- Business Critical Outage
+- Personal Computer Issues
+- Equipment Reset
+- Password Reset
 
 Click on 'Add Topic', to create a new Help Topic.
 </p>
