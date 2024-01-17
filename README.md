@@ -240,3 +240,11 @@ Click on 'Add Topic', to create a new Help Topic.
 <p>
 <img src="https://imgur.com/aqD2s17.png" height="70%" width="70%" alt="osTicket"/>
 </p>
+
+<p>
+Congratulations! You have completed the osTicket Post Installation Configuration! 
+
+To learn about osTicekt's Ticket Lifecycles continue to the [osTicket - Ticket Lifecycle: Intake Through Resolution Lab](https://github.com/andrewkhun/ticket-lifecycle)
+
+</p>
+
