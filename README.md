@@ -39,7 +39,6 @@ In the photo below, you can see we are on the Agent Panel since the UI is displa
 
 <h2>Configure Roles</h2>
 <p>
-  
 To setup the proper osTicket configurations, you must log in with the 'user_admin' account that was created in the [osTicket - Prerequisites and Installation Lab](https://github.com/andrewkhun/osticket-prereqs)
 </p>
 <p>
@@ -49,7 +48,7 @@ Login using the account created.
 <img src="https://imgur.com/0YfQFj8.png" height="70%" width="70%" alt="osTicket"/>
 </p>
 <p>
-Navigate to the Admin Panel, select Agents -> Roles, and click 'Add New Role'.
+Roles are the permissions granted to Agents per Department that they have access to. Navigate to the Admin Panel, select Agents -> Roles, and click 'Add New Role'.
 </p>
 <p>
 <img src="https://imgur.com/YekL3QB.png" height="70%" width="70%" alt="osTicket"/>
@@ -77,6 +76,7 @@ Once all boxes have been checked, click 'Add Role'.
 
 <h2>Configure Deparments</h2>
 <p>
+Departments are used to route and resolve tickets based on their importance or instructions.
 To configure Departments, head to the Admin Panel then select Agents -> Departments, and click on 'Add New Department'.
 </p>
 <p>
@@ -94,6 +94,7 @@ We will create a new department named 'System Administrators'. Once you have typ
 
 <h2>Configure Teams</h2>
 <p>
+Teams allow you to pull Agents from different Departments and organize them to handle a specific issue or user via a Help Topic or Ticket Filter.
 To configure Teams, head back to the Admin panel then go to Agents -> Teams, and click on 'Add New Team'. Create a new team called 'Level II Support', and add your current user account to the Team.
 </p>
 <p>
@@ -112,7 +113,7 @@ Once done, click on 'Create Team'.
 
 <h2>Configure Agents</h2>
 <p>
-To configure Agents or the ones who will be resolving the tickets, go to the Admin panel go to Agents -> Add New, and click on 'Add New Agent'.
+Agents are given the access to the help desk in osTicket to respond, resolve, and update the status of tickets. To configure Agents or the ones who will be resolving the tickets, go to the Admin panel go to Agents -> Add New, and click on 'Add New Agent'.
 </p>
 <p>
 <img src="https://imgur.com/cKtoFdN.png" height="70%" width="70%" alt="osTicket"/>
@@ -165,7 +166,7 @@ Please note, when configuring a true work/production environment osTicket instan
 
 <h2>Configure Users</h2>
 <p>
-To configure Users who will submit tickets into the osTicket system, navigate to the Agent panel then click on Users -> Add New. Here we will create two new Users.
+Users are creators and owners of tickets and by using osTicket they can track the status of their tickets. To configure Users who will submit tickets into the osTicket system, navigate to the Agent panel then click on Users -> Add New. Here we will create two new Users.
 </p>
 <p>
 <img src="https://imgur.com/d75tPfh.png" height="70%" width="70%" alt="osTicket"/>
@@ -182,7 +183,14 @@ Our two new users will be 'karen karen' with the email 'karen<span>@</span>ostic
 
 
 
+
 <h2>Allow Anyone to Create Tickets</h2>
+<p>
+Access the Admin Panel, go to the Settings tab, and click on Users, make sure Registration Required is unchecked. This will allow the user to create tickets without logging in.
+</p>
+<p>
+<img src="https://imgur.com/oJnMe9z.png" height="70%" width="70%" alt="osTicket"/>
+</p>
 
 <h2>Configure SLA Levels</h2>
 
